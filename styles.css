@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    background-color: blue;
+    width: 40vw;
+    height: 100vh;
+
+    font-family: Norse-Bold;
+}
+
+.right {
+    background-color: #353A47;
+    width: 60vw;
+    height: 100vh;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.left-img {
+    vertical-align: top;
+    height: 100vh;
+    width: 100%;
+}
+
+p {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.top-desc{
+    height: 34vh;
+}
+
+.form-container {
+    height: 32vh;
+}
+
+.login-container {
+    height: 34vh;
+}
