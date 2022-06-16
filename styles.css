@@ -96,6 +96,10 @@
     justify-content: space-around;
 }
 
+form input:invalid:not(:focus):not(:placeholder-shown){
+    border: red solid 2px;
+}
+
 .input{
     width: 40%;
     display: flex;
