@@ -10,6 +10,10 @@
 <body>
     <div class="container">
         <div class="left">
+            <div class="overlay">
+                <img src="odin-lined.png" alt="odin-logo">
+                <p class="overlay-text">ODIN</p>
+            </div>
             <img src="left-img.jpg" alt="img goes here yay" class="left-img">
         </div>
         <div class="right">
@@ -26,27 +30,27 @@
                         <p class="title">Let's do this!</p>
                         <div class="input">
                             <label for="first-name">First Name:</label>
-                            <input type="text" class="first-name">
+                            <input type="text" class="first-name" required>
                         </div>
                         <div class="input">
                             <label for="last-name">Last Name:</label>
-                            <input type="text" class="last-name">
+                            <input type="text" class="last-name" required>
                         </div>
                         <div class="input">
                             <label for="email">Email:</label>
-                            <input type="text" class="email">
+                            <input type="email" class="email" required>
                         </div>
                         <div class="input">
                             <label for="phone-number">Phone Number:</label>
-                            <input type="text" class="phone-number">
+                            <input type="text" class="phone-number" required>
                         </div>
                         <div class="input">
                             <label for="password">Password:</label>
-                            <input type="password" class="password">
+                            <input type="password" class="password" minlength="8" required>
                         </div>
                         <div class="input">
                             <label for="confirm-password">Confirm Password:</label>
-                            <input type="password" class="confirm-password">
+                            <input type="password" class="confirm-password" minlength="8" required>
                         </div>
                         <div class="input-btn">
                             <button type="submit">Create Account</button>
@@ -54,7 +58,7 @@
                     <!-- </div> -->
             </form>
             <div class="login-container">
-
+                <p class="login-text">Already have an account? <a href="#" class="login-btn">Login</a></p>
             </div>
         </div>
     </div>

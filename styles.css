@@ -20,6 +20,31 @@
     font-family: Norse-Bold;
 }
 
+.overlay{
+    height: 200px;
+    width: 40vw;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(25vh);
+
+    font-family: Norse-Bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-text {
+    font-size: 100px;
+    color: white;
+    opacity: 10000%;
+}
+
+.overlay img{
+    height: 80%;
+}
+
 .right {
     background-color: #173753;
     width: 60vw;
@@ -106,5 +131,29 @@ input{
 }
 
 .login-container {
-    
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.login-text {
+    font-size: 20px;
+}
+
+.login-btn{
+    color: rgb(42, 122, 75);
+    text-decoration: none;
+}
+
+.login-btn:visited {
+    color: rgb(42, 122, 75);
+}
+
+::selection{
+    background: rgb(42, 122, 75);
+    color: white;
+}
+
+::-moz-selection {
+    background: rgb(42, 122, 75);
+    color: white;
 }
